@@ -1,6 +1,10 @@
 package main
 
-import "runtime"
+import (
+	"fmt"
+	"runtime"
+	"time"
+)
 
 const N = 40000000
 
@@ -16,6 +20,11 @@ func main() {
 		split[i%200][value] = value
 	}
 
+	start := time.Now()
 	runtime.GC()
+	duration := time.Since(start)
+
+	fmt.Println("It took GC", duration, "to finish")
+
 	_ = split[0][0]
 }
