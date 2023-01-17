@@ -13,6 +13,3 @@ but the difference in time.
 | mapGC      | 8,4125357     |
 | mapPtrGC   | 11,1446763    |
 | mapSplitGC | 8,5930541     |
-## Notes
-
-* I did the calculations through the PowerShell command ```Measure-Command { ... }```
