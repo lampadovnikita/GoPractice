@@ -5,7 +5,7 @@ Among the 4 small programs, the garbage collector works the fastest with the one
 And the difference in time is quite significant. moreover, it is not so much the accuracy and nature of the measurements that is important here,
 but the difference in time.
 
-## approximate measurements of time
+## Approximate measurements of time
 
 | Programm   | Time, seconds |
 | -----------|:-------------:|
